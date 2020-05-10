@@ -1,38 +1,85 @@
-
-body{ 
-    background: #fefefe9a;
+body {
+  background: #f3f0f09a;
 }
 section {
-    background:#ffffff;
+  background: #ffffff;
 }
 
 h1 {
-    color: #ff5492;
-
+  color: #ff5492;
 }
 .secondary-heading {
-    color: #1460aa;
-
+  color: #1460aa;
+  text-align: center;
 }
-.special-heading{
-    color: #e8a9ac;
-
+.special-heading {
+  color: #e8a9ac;
 }
-.hotpink-header{
-    color:hotpink;
-    
+.hotpink-header {
+  color: #e4599e;
 }
 a {
-    color:rgb(255, 203, 105);
+  color: #ffcb69;
 }
 nav a {
-    color:grey;
-
+  color: grey;
 }
 h4 {
-    color:green;
+  color: green;
 }
 
 #top {
-    background:grey;
+  background: white;
+  text-align: center;
+  border-radius: 20px;
 }
+.navigation {
+  background: grey;
+  padding: 16px;
+  border-radius: 18px;
+}
+.navigation__link {
+  color: #fff;
+  display: inline-block;
+  margin-right: 20px;
+}
+.navigation__link--homepage {
+  background: white;
+  color: #000;
+}
+.week-summary {
+  padding: 16px;
+  border: 1px #ccc solid;
+  margin: 15px 10px;
+  text-align: justify;
+}
+.week-summary__description {
+  color: #651ea7;
+}
+.week-summary__title {
+  color: #e8a9ac;
+}
+.photo-Patrycja {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border-radius: 35%;
+}
+.logo-css {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.logo-html {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
