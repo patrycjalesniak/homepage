@@ -19,13 +19,13 @@ h1 {
   color: #e4599e;
 }
 a {
-  color: #ffcb69;
+  color: #e4599e;
 }
 nav a {
   color: grey;
 }
 h4 {
-  color: green;
+  color:#535353;
 }
 
 #top {
@@ -52,6 +52,7 @@ h4 {
   border: 1px #ccc solid;
   margin: 15px 10px;
   text-align: justify;
+  background: white;
 }
 .week-summary__description {
   color: #651ea7;
@@ -83,3 +84,19 @@ h4 {
   margin-top: 20px;
 }
 
+.main-page {
+ max-width:1000px; 
+  margin: 0 auto;
+}
+.about__description{
+  color:black;
+
+}
+.about__link {
+  color:hotpink;
+
+}
+.footer{
+  max-width:1000px; 
+  margin: 0 auto;
+}
