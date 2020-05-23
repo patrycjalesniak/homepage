@@ -1,5 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+
 body {
-  background: #f3f0f09a;
+  
+  background-color: #FAACA8;
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
 }
 section {
   background: #ffffff;
@@ -35,6 +46,10 @@ h4 {
   background: grey;
   padding: 16px;
   border-radius: 18px;
+  display: flex;
+  justify-content:space-around;
+  height: 70px;
+  align-items: center;
 }
 .navigation__link {
   color: #fff;
@@ -54,6 +69,9 @@ h4 {
 }
 .week-summary__description {
   color: #651ea7;
+  margin-right:40px ;
+  
+  
 }
 .week-summary__title {
   color: #e8a9ac;
