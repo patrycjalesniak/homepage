@@ -84,3 +84,30 @@ function calculateMultiplication(firstInputNumber, secondInputNumber) {
 calculateMultiplication(6, 8);
 calculateMultiplication(2, 2);
 calculateMultiplication(12, 3);
+
+
+if ('Java' != 'Javascript') {
+  console.log('Java to Javascript');
+}
+
+const button = document.querySelector('.action--js');
+
+console.log(button)
+
+
+button.addEventListener('click', () => {
+  const heading = document.querySelector(".hotpink-header--js");
+  heading.innerHTML = `Hej! Miło Cię gościć na mojej stronie!`;
+  console.log(heading.classList.contains ('hotpink-header--js'));
+
+});
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+  const nav = document.querySelector(".navigation--js");
+  nav.classList.toggle('navigation--open');
+
+
+
+})

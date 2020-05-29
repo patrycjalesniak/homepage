@@ -9,29 +9,32 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html"
-          >Strona główna</a
-        >
+    <header class="header">
+      <nav class="navigation navigation--js">
+        <a class="navigation__link navigation__link--homepage" href="index.html"> Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+        <a class="navigation__link" href="nauka-css.html">Nauka css</a>
         <a class="navigation__link" href="nauka-html.html">Nauka html</a>
         <a class="navigation__link" href="nauka-css.html">Nauka css</a>
       </nav>
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">🤩</button>
     </header>
-    <main class= "main-page">
-      <header id="top">
+    <main class="main">
+      <header class="main__heading main__heading--js" id="top">
         <h1 class="hotpink-header hotpink-header--js">
           Patrycja Leśniak - Strona domowa robiona w ramach WTF
         </h1>
+        <button class="action--js"> Zmień nagłówek </button>
       </header>
-
+    </main>
       <img
         class="photo-Patrycja"
         src="lesniak.jpg"
         alt="Uśmiechnięta Patrycja"
       />
-
+       <div class= "grid">
       <section class="week-summary">
+        
         <h2 class="secondary-heading secondary-heading__welcome--js">
           MAM NA IMIĘ PATRYCJA I... NIE UMIEM MÓWIĆ O SOBIE!
         </h2>
@@ -83,7 +86,9 @@
           całe życie. Grunt, żeby zrobić to dobrze.
         </p>
       </section>
+      
       <section class="week-summary">
+  
         <h2 class="secondary-heading">DLACZEGO TEGO NIE UCZĄ W SZKOLE?</h2>
 
         <p class="about__description">
@@ -95,10 +100,13 @@
           możliwości trenowania swoich umiejętności przemawiania była tak duża,
           jak liczba kostek czekolady w mojej szafce po całym dniu – czyli
           znikoma. A przecież szkoła powinna nauczyć nas umiejętności kluczowych
-          w&nbsp;życiu – pisania, liczenia, współpracy z grupie, itd. Przydałoby się,
+          w&nbsp; życiu – pisania, liczenia, współpracy z grupie, itd. Przydałoby się,
           żeby do tej grupy dołączyła też umiejętność przemawiania do innych.
         </p>
+      </div>
       </section>
+    
+    
 
       <article class="week-summary"> 
         <h2 class="secondary-heading">JAK NAUCZYĆ SIĘ MÓWIĆ O SOBIE?</h2>
