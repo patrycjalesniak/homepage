@@ -59,11 +59,9 @@ h4 {
   padding: 16px;
   display:none;
 }
-.navigation--js {
+.navigation--open {
   display: block;
- 
 }
-
 
 .navigation__link {
   color:hotpink;
@@ -150,7 +148,7 @@ h4 {
   .hamburger {
     display: none;
   }
-  .navigation {
+   .navigation {
     padding: 16px;
     border-radius: 18px;
     display: flex;
